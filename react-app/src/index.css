@@ -1,0 +1,72 @@
+/* TODO Add site wide styles */
+
+@font-face {
+    font-family:"Roboto-Black";
+    src: local("bold"),
+    url("./assets/fonts/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"Roboto-Light";
+    src: local("bold"),
+    url("./assets/fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"Roboto-Regular";
+    src: local("bold"),
+    url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"Roboto-Thin";
+    src: local("bold"),
+    url("./assets/fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+* {
+    font-family: Roboto-Regular;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+*::-webkit-scrollbar {
+    width: 13px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(172, 172, 172);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+a {
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+}
+
+input:focus {
+    outline: 1px rgb(62, 166, 255) solid;
+}
+
+textarea:focus {
+    outline: 1px rgb(62, 166, 255) solid;
+}
+
+button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 5px 20px white;
+  }
+
+button{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  }

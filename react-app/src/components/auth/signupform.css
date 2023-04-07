@@ -1,0 +1,390 @@
+.sign-up-form-background {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.signup-form {
+    border: 1.5px solid rgba(128, 128, 128, 0.321);
+    border-radius: 5px;
+    width: 668px;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+}
+
+.signup-form-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    color: black;
+}
+
+.signup-first-last {
+    display: flex;
+    flex-direction: row;
+
+    background-color: white;
+    color: black;
+}
+
+
+.signup-first-last div:nth-child(1) {
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+.signup-first-last div:nth-child(2) {
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+.signup-first-last div:nth-child(1)>input {
+    border: 1px solid rgba(128, 128, 128, 0.528);
+    border-radius: 5px;
+    height: 100%;
+    margin-right: 30px;
+    background-color: transparent;
+    background-color: white;
+    color: black;
+}
+
+.signup-first-last div:nth-child(2)>input {
+    border: 1px solid rgba(128, 128, 128, 0.528);;
+    border-radius: 5px;
+    height: 100%;
+    background-color: transparent;
+    background-color: white;
+    color: black;
+}
+
+.signup-first-last div:nth-child(1)>label {
+    position: absolute;
+    font-size: 0.8rem;
+    top: -0.45rem;
+    left: 0.5rem;
+    border-left: 0.3rem solid white;
+    border-right: 0.3rem solid white;
+    background-color: white;
+    color: black;
+}
+
+.signup-first-last div:nth-child(2)>label {
+    position: absolute;
+    border-left: 0.3rem solid white;
+    border-right: 0.3rem solid white;
+    font-size: 0.8rem;
+    top: -0.45rem;
+    left: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-left div:nth-child(4) {
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-left div:nth-child(4)>input {
+    border: 1px solid rgba(128, 128, 128, 0.528);;
+    border-radius: 5px;
+    height: 100%;
+    background-color: transparent;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-left div:nth-child(4)>label {
+    position: absolute;
+    border-left: 0.3rem solid white;
+    border-right: 0.3rem solid white;
+    font-size: 0.8rem;
+    top: -0.45rem;
+    left: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-left div:nth-child(5) {
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-left div:nth-child(5)>input {
+    border: 1px solid rgba(128, 128, 128, 0.528);;
+    border-radius: 5px;
+    height: 100%;
+    background-color: transparent;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-left div:nth-child(5)>label {
+    position: absolute;
+    border-left: 0.3rem solid white;
+    border-right: 0.3rem solid white;
+    font-size: 0.8rem;
+    top: -0.45rem;
+    left: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-password-confirm {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-password-confirm div:nth-child(1) {
+    position: relative;
+    background-color: white;
+    color: black;
+
+}
+
+.signup-form-password-confirm div:nth-child(2) {
+    position: relative;
+    background-color: white;
+    color: black;
+
+}
+
+.signup-form-password-confirm div:nth-child(1)>label {
+    position: absolute;
+    border-left: 0.3rem solid white;
+    border-right: 0.3rem solid white;
+    font-size: 0.8rem;
+    top: -0.45rem;
+    left: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-password-confirm div:nth-child(2)>label {
+    position: absolute;
+    border-left: 0.3rem solid white;
+    border-right: 0.3rem solid white;
+    font-size: 0.8rem;
+    top: -0.45rem;
+    left: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-password-confirm div:nth-child(1)>input {
+    border: 1px solid rgba(128, 128, 128, 0.528);;
+    border-radius: 5px;
+    height: 100%;
+    margin-right: 30px;
+    background-color: transparent;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-password-confirm div:nth-child(2)>input {
+    border: 1px solid rgba(128, 128, 128, 0.528);;
+    border-radius: 5px;
+    height: 100%;
+    background-color: transparent;
+    background-color: white;
+    color: black;
+}
+
+.signup-form-left>button {
+    border: 1px solid rgb(26, 115, 232);
+    background-color: rgb(26, 115, 232);
+    border-radius: 3px;
+    height: 30px;
+    width: 65px;
+    align-self: flex-end;
+    margin-bottom: 10%;
+    margin-right: 14%;
+    font-size: 12px;
+
+
+}
+
+.signup-form-left-top div:nth-child(2) {
+    font-size: 1.1rem;
+    font-family: Roboto-Thin;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    margin-top: 1%;
+}
+
+.signup-form-left-top div:nth-child(3) {
+    font-size: 1rem;
+    font-family: Roboto-Thin;
+    background-color: white;
+    color: black;
+}
+
+.signup-first-last>div>div:nth-child(3) {
+    position: absolute;
+    font-size: 11px;
+    color: red;
+    background-color: transparent;
+    background-color: white;
+    color: black;
+}
+
+.signup-username>div {
+    position: absolute;
+    font-size: 11px;
+    color: red;
+    background-color: transparent;
+
+}
+
+.signup-email>div {
+    position: absolute;
+    font-size: 11px;
+    color: red;
+    background-color: transparent;
+}
+
+.signup-form-password-confirm>div>div:nth-child(3) {
+    position: absolute;
+    font-size: 11px;
+    color: red;
+    background-color: transparent;
+}
+
+.signup-form-left-top>div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
+
+.signup-form-left-top>div:nth-child(1)>span {
+    font-size: 1.3rem
+}
+
+.signup-form-left-top>div:nth-child(1)>span:nth-child(1) {
+    color: blue
+}
+
+.signup-form-left-top>div:nth-child(1)>span:nth-child(2) {
+    color: red
+}
+
+.signup-form-left-top>div:nth-child(1)>span:nth-child(3) {
+    color: rgb(255, 217, 0)
+}
+
+.signup-form-left-top>div:nth-child(1)>span:nth-child(4) {
+    color: blue
+}
+
+.signup-form-left-top>div:nth-child(1)>span:nth-child(5) {
+    color: green
+}
+
+.signup-form-left-top>div:nth-child(1)>span:nth-child(6) {
+    color: red
+}
+
+.signup-form-left-top {
+    background-color: white;
+}
+
+
+.signup-first-last {
+    height: 7%;
+}
+
+.signup-username {
+    height: 7%;
+
+}
+
+.signup-email {
+    height: 7%;
+}
+
+.signup-form-password-confirm {
+    height: 7%;
+}
+
+
+.signup-email > input {
+    width: 37%;
+    padding-left: 0.45em
+}
+
+.signup-username > input {
+    width: 37%;
+    padding-left: 0.45em
+}
+
+.signup-first-last > div:nth-child(1)>input {
+    width: 100%;
+
+}
+
+.signup-first-last> div:nth-child(2)>input {
+    width: 100%;
+
+}
+
+.signup-first-last> div:nth-child(2) {
+    margin: auto;
+    height: 100%;
+}
+
+.signup-form-password-confirm > div > input {
+    width: 100%;
+}
+
+
+.signup-form-password-confirm div:nth-child(1)>input {
+    width: 100%;
+}
+
+.signup-form-password-confirm > div:nth-child(2) {
+    margin: auto;
+    height: 100%;
+}
+
+.signup-errors {
+    color: red !important;
+}
+
+
+.firstName {
+    padding-left: 0.45em !important;
+}
+
+.lastName {
+    padding-left: 0.45em !important;
+}
+
+.password {
+    padding-left: 0.45em !important;
+}
+
+.repeat-password {
+    padding-left: 0.45em !important;
+}

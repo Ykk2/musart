@@ -1,0 +1,227 @@
+html, body, #root {
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+}
+
+.login-form-background {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.login-form {
+    border: 1.5px solid rgba(128, 128, 128, 0.383);
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.login-form-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    height: 17%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.login-form-top > div {
+    background-color: white;
+    color: black;
+}
+
+.login-form-top > div:nth-child(2) {
+    font-size: 1.2rem
+}
+
+.login-links:hover {
+    color: rgb(106, 163, 237);
+    cursor: pointer
+}
+
+.email-field-login,
+.password-field-login{
+    width : 80%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.email-field-login > label {
+    position: absolute;
+    font-size: 12px;
+    top: -8px;
+    left: 10px;
+    border-left: 6px solid white;
+    border-right: 6px solid white;
+    background-color: white;
+    color: black
+}
+
+.password-field-login > label {
+    position: absolute;
+    font-size: 12px;
+    top: -8px;
+    left: 10px;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    border-left: 6px solid white;
+    border-right: 6px solid white;
+    background-color: white;
+    color: black
+}
+
+.email-field-login > input {
+    width: 97%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 3%
+}
+.password-field-login > input {
+    width: 97%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 3%
+}
+
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 10px rgb(15,15,15) !important;
+} */
+
+
+.login-form div:nth-child(6) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    position: absolute;
+    bottom: 80px;
+}
+
+.login-form div:nth-child(6) > button {
+    padding: 0;
+    border: 0;
+}
+
+.email-field-login > div:nth-child(3) {
+    font-size: 12px;
+    color: red
+}
+
+.password-field-login > div:nth-child(3) {
+    font-size: 12px;
+    color: red
+}
+
+
+.demo-user-login-text {
+    background-color: white;
+    color: black;
+}
+
+.login-demo {
+    background-color: white;
+    color: rgb(35, 121, 232);
+    cursor: pointer
+}
+
+.login-demo:hover {
+    color: rgb(0, 103, 238);
+}
+
+.login-links-container {
+    background-color: white;
+}
+
+.login-links {
+    background-color: white;
+    color: black;
+}
+
+.login-links-container > button {
+    background-color:rgb(67, 136, 227);
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.login-links-container > button:hover {
+    color: white !important;
+    background-color: rgb(15, 113, 242);
+}
+
+.login-links-container > span:nth-child(1) {
+    color: rgb(67, 136, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 2rem;
+}
+
+.login-links-container > span:nth-child(1):hover {
+    background-color: rgba(128, 128, 128, 0.099);
+    border-radius: 5px;
+}
+
+
+.login-form-top > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+}
+
+.login-form-top > div:nth-child(1) > span {
+    color: black;
+    font-size: 1.3rem;
+}
+
+
+.login-form-top > div:nth-child(1) > span:nth-child(1) {
+    color: blue
+}
+
+.login-form-top > div:nth-child(1) > span:nth-child(2) {
+    color: red
+}
+
+.login-form-top > div:nth-child(1) > span:nth-child(3) {
+    color: rgb(255, 217, 0)
+}
+
+.login-form-top > div:nth-child(1) > span:nth-child(4) {
+    color: blue
+}
+
+.login-form-top > div:nth-child(1) > span:nth-child(5) {
+    color: green
+}
+
+.login-form-top > div:nth-child(1) > span:nth-child(6) {
+    color: red
+}

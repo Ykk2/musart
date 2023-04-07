@@ -1,0 +1,163 @@
+.create-video-form {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding-top: 4.5%;
+    padding-bottom: 5%;
+    width: 100vh;
+    height: 45vh;
+}
+
+.monkey {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.video-upload-video {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.video-upload-video label:nth-child(1) {
+    margin-bottom: 11.5%;
+}
+
+.video-upload-video label:nth-child(4) > input {
+    display: none
+}
+
+.video-upload-video label:nth-child(4) {
+    border: 1px rgb(62, 166, 255) solid;
+    background-color: rgb(62, 166, 255);
+    padding: 0.4em 0.9em;
+    font-size: 0.8em;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+    cursor: pointer;
+    margin-bottom: 2.2%;
+}
+
+.video-upload-video div:nth-child(5) {
+    font-size: 0.8em;
+    align-self: center;
+    color: rgb(209, 209, 209);
+}
+
+.video-upload-video > video {
+    width: 100%;
+    height: 100%;
+}
+
+.video-upload-details {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.video-upload-details div:nth-child(1) {
+    padding-bottom: 10.5%;
+}
+
+.upload-video-error {
+    height: 4%;
+    width: 100%;
+    color: red;
+    font-size: 0.7em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.video-upload-details label:nth-child(2) {
+    position: relative;
+    top: 6%;
+    font-size: 0.7em;
+    padding-left: 3.4%;
+    font-family: Roboto-Light;
+    color: rgb(209, 209, 209);
+    z-index: 4;
+    background-color: transparent;
+}
+
+.video-upload-details label:nth-child(6) {
+    position: relative;
+    top: 6%;
+    font-size: 0.7em;
+    padding-left: 3.4%;
+    font-family: Roboto-Light;
+    color: rgb(209, 209, 209);
+    z-index: 4;
+    background-color: transparent;
+}
+
+.video-upload-details textarea:nth-child(3) {
+    height: 17%;
+    padding-top: 10%;
+    padding-left: 3.2%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+}
+
+.video-upload-details textarea:nth-child(7) {
+    height: 17%;
+    padding-top: 10%;
+    padding-left: 3.2%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+}
+
+.upload-title-counter {
+    position: relative;
+    top: -10%;
+    left: 90%;
+    background-color: transparent;
+    color: rgb(118, 118, 118);
+    font-size: 0.6em;
+}
+
+.upload-description-counter {
+    position: relative;
+    top: -10%;
+    left: 90%;
+    background-color: transparent;
+    color: rgb(118, 118, 118);
+    font-size: 0.6em;
+}
+
+.video-upload-details > button {
+    cursor: pointer;
+    border: 1px rgb(62, 166, 255) solid;
+    background-color: rgb(62, 166, 255);
+    border-radius: 4px;
+    font-size: 0.7em;
+    width: 25%;
+    height: 6%;
+    align-self: center;
+}
+
+
+.upload-title-error {
+    height: 3%;
+    width: 100%;
+    color: red;
+    font-size: 0.7em;
+}
+
+.upload-description-error {
+    height: 3%;
+    width: 100%;
+    color: red;
+    font-size: 0.7em;
+}
+
+.video-upload-loading {
+    background-color: green;
+    color: green;
+    margin: auto;
+}
