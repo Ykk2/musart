@@ -7,8 +7,8 @@ from flask_login import LoginManager
 from .models import db, User
 from .api.user_routes import user_routes
 from .api.auth_routes import auth_routes
-from .api.comment_routes import comment_routes
-from .api.subscriber_routes import subscriber_routes
+from .api.painting_routes import comment_routes
+from .api.sound_routes import subscriber_routes
 from .api.video_routes import video_routes
 from .seeds import seed_commands
 from .config import Config

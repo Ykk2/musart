@@ -1,9 +1,9 @@
 from flask.cli import AppGroup
 from .users import seed_users, undo_users
 from .comments import seed_comments, undo_comments
-from .likes import seed_likes, undo_likes
+from .paintings import seed_likes, undo_likes
 from .subscribers import seed_subscribers, undo_subscribers
-from .videos import seed_videos, undo_videos
+from .sounds import seed_videos, undo_videos
 
 from app.models.db import db, environment, SCHEMA
 
