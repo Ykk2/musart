@@ -1,0 +1,93 @@
+.SideBar {
+    min-height: 100vh;
+    height: auto;
+    position: fixed;
+    top: 55px;
+    width: 150px;
+    left: 0;
+    display: block;
+}
+
+.SideBar > div {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    width: 99%
+}
+
+.SideBar > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.SideBar > div > div > i {
+    background-color: transparent;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    margin-right: 20px
+}
+
+.SideBar-top {
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(65, 65, 65);
+    height: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.SideBar-top > div {
+    display: flex;
+    width: 98%;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.SideBar-middle {
+    border-bottom: 1px solid rgb(65, 65, 65);
+    height: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+.SideBar-middle > div {
+    display: flex;
+    width: 98%;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;;
+    justify-content: flex-start;
+    cursor: pointer;
+
+}
+
+.SideBar-middle > div:hover {
+    background-color:rgb(65, 65, 65)
+}
+
+
+.SideBar-top > div:hover {
+    background-color:rgb(65, 65, 65)
+}
+
+/*  */
+
+.SideBar-bottom {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.SideBar-bottom > div {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.SideBar > div > div > div:nth-child(2) {
+    background-color: transparent;
+}
